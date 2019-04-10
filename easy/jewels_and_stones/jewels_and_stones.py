@@ -1,6 +1,4 @@
-class Solution:
-
-    def numJewelsInStones(self, J, S):
+def num_jewels_in_stones(self, J, S):
         jewel_count = 0
         for stone in S:
             if S in J:
